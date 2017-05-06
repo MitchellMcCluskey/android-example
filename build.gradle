@@ -1,9 +1,11 @@
 buildscript {
     repositories {
         jcenter()
+        maven { url 'https://jitpack.io' }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.1'
+        classpath 'com.github.xingda920813:gradle-android-scala-plugin:android-gradle-2.3.0'
     }
 }
 
